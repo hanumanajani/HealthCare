@@ -1,0 +1,74 @@
+.userSpace,.profile,.name{
+    border: 2px solid black;
+    background-color: rgb(7, 21, 42);
+    color: aliceblue;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.logo{
+    margin: 4px;
+    padding: 4px;
+    border:2px solid black;
+    color: rgb(12, 59, 100);
+    background-color: chartreuse;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    forced-color-adjust:inherit;
+    border-radius: 50%;
+    width: fit-content;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+    width:100%;
+    /* margin: 4px; */
+    padding: 4px;
+    background-color: rgb(15, 86, 162);
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // Styles.css */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    height: 200px;
+    width: 150px;
+    background-color: #c9c9d4;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border:3px solid black;
+    border-radius: 10px;
+  }
+  
+  .sidebar.closed {
+    transform: translateX(110%);
+  }
