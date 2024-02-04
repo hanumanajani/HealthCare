@@ -20,8 +20,8 @@ function Newpaitentformdr() {
 
 
 
-  return <div className='body1'>
-    <div className='Box1q'>
+  return <div className='body11'>
+    <div className='Box1'>
       {/* <img className='image2' src="https://cdn.pixabay.com/photo/2014/04/02/14/12/stethoscope-306476_960_720.png" /> */}
       <div className='body1'>
         <h3>paitent Form</h3>

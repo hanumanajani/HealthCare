@@ -22,11 +22,19 @@
     border-radius: 10px;
     /* color: alice; */
      /* width: 300px; */
+  
     margin: 10px;
     padding: 20px;
+     
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     
+}
+.body11{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .rectangle2{
     /* border: 1px solid rgb(1, 1, 22); */
@@ -83,6 +91,17 @@
     /* border: 2px solid gray; */
     border-radius: 10px;
     margin: 100px;
+    
+    /* background-color: rgb(177, 212, 209); */
+    
+}
+.body5{
+    
+    display:grid;
+    
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    margin: 10px;
     
     /* background-color: rgb(177, 212, 209); */
     
@@ -196,6 +215,7 @@ td{
 .Box1{
     display: flex;
     border: 1px solid black;
+    max-width: fit-content;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
