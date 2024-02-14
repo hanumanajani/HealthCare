@@ -21,7 +21,7 @@ function Comment(props) {
                 <div className='comment'>
                     <strong>{props.writer}::</strong>{props.data}
                 </div>
-                <button onClick={() => { Seecomment() }}>SeeComment</button>
+                <button onClick={() => { Seecomment() }}><img className='seecmnt' src='https://w1.pngwing.com/pngs/459/66/png-transparent-arrow-graphic-design-dropdown-list-button-blue-azure-line-electric-blue-symbol.png'/></button>
 
                 {(snolist !== null) ?
                     snolist.map(sno =>

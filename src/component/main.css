@@ -95,17 +95,7 @@
     /* background-color: rgb(177, 212, 209); */
     
 }
-.body5{
-    
-    display:grid;
-    
-    /* border: 2px solid gray; */
-    border-radius: 10px;
-    margin: 10px;
-    
-    /* background-color: rgb(177, 212, 209); */
-    
-}
+ 
 .mainbody{
     display: flex;
     flex-direction: column;
@@ -305,6 +295,14 @@ td{
   
   .replies-list {
     margin-left: 20px;
+  }
+
+
+
+
+  .seecmnt{
+    width: 25px;
+    height: 25px;
   }
 
 
