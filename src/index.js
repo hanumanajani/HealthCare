@@ -10,7 +10,7 @@ import { GlobalProvider } from './context/Global';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-
+ 
 root.render(
 
   <React.StrictMode>

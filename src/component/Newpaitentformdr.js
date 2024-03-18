@@ -14,8 +14,8 @@ function Newpaitentformdr() {
   function Addtreatment() {
     firebase.paitenttreatment(paitent, date, discp);
     setAddtreat(true)
-
-  }
+ 
+  } 
 
 
 

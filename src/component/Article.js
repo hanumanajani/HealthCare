@@ -29,13 +29,13 @@ function Article() {
                     {/* <input className='rectangle1' placeholder='Search Article' /> */}
                     {/* <button className='button1'>search</button><br /> */}
                 </div>
-            </div>
+            </div> 
 
             {checkwrite ? <WriteArticle /> : null}
             {checkread ? <ReadArticle Article={Article} /> : null}
 
         </div>
 
-    );
+    ); 
 }
 export default Article;

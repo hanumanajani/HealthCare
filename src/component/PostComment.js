@@ -12,7 +12,7 @@ function  PostComment(props){
         else{
             firebase.WriteCommentForId1(useglobal.mainname,cmnt,props.cnt+1,props.id)
             alert("posted")
-        }
+        } 
     }
     return (
         <div className='replies-list'>

@@ -9,4 +9,4 @@ function Home(){
         <Home1/>
     )
 }
-export default Home;
+export default Home; 

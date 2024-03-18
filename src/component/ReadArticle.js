@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 // import Article from './Article';
 import ReadArticle2 from './ReadArticle2';
-
+ 
 // const [data,setdata]=useState();
 
 function ReadArticle(props) {
@@ -17,7 +17,7 @@ function ReadArticle(props) {
                     </div>
                 )
             } 
- 
+  
 
         </div>
     )

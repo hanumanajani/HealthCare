@@ -8,13 +8,13 @@ function ReadArticle2(props) {
                 writerlist.map(writer =>
                     <div>
                         <button className='rectangle2'><strong>Writer  </strong>: {writer}</button>
-                        <img className='img3' src={props.Article[writer].imgurl} />
+                        <img className='img3' src={props.Article[writer].imgurl} alt="post"/>
                         <p className='article3'>{props.Article[writer].article}</p>
                         <Comment id={props.topic+writer} data="Comments.........................." writer = ""/>
                     </div>
                 )
             }
-
+ 
 
         </div>
     )

@@ -11,7 +11,7 @@ function Historyofpaitent(){
         firebase.readpaitenthistory(pname,sethistry);
     }
     const datelist=Object.keys(histry).filter((key)=>key.startsWith(""));
-    
+     
     return (
         <div className='body1'>
         <input className='rectangle2' onChange={(e)=>{setpname(e.target.value)}} placeholder='Enter paitent username'/>

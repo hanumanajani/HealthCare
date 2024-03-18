@@ -48,7 +48,7 @@ function UserSpace() {
     return (
         <div className='body2'>
        
-            <div className='body1'>
+            <div className='body1'> 
                 <h3><strong>UserSpace</strong></h3>
                 <br/>
                 <Button component="label" variant="contained" onClick={() => { treatment() }}>treatment Details</Button><hr/>

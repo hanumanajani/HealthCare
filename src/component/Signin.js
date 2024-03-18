@@ -10,10 +10,10 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 
 
-function Signin(){
+function Signin(){ 
     const [email , setemail]=useState('');
     const [name , setname]=useState('');
     const [password,setpassword]=useState('');
@@ -21,11 +21,11 @@ function Signin(){
     const [mobileno, setmobileno] = useState('');
     const [imgurl, setimgurl] = useState('');
     const [check,setcheck]=useState(false);
-
+    
 
     const firebase =useFirebase();
     const useglobal =useGlobal();
-     
+    
     const signinbtn=()=>{
        firebase.signinuser(email,password,check,setcheck)
     
@@ -34,8 +34,12 @@ function Signin(){
      
         useglobal.setmainname(name)     
         useglobal.setmainusrtype(usrtype)
+        // fixing warning
+        setmobileno(mobileno)
+        setimgurl(imgurl)
         
     }
+   
 
     return (<div className='body2'>
     <div className='body1'>

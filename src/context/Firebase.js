@@ -15,7 +15,7 @@ const firebaseConfig = {
   storageBucket: "health-care-a6b54.appspot.com",
   messagingSenderId: "901807899278",
   appId: "1:901807899278:web:ba6d61d26cc70ab8b3bfdf",
-  measurementId: "G-J2JSTZGW9F"
+  measurementId: "G-J2JSTZGW9F" 
 };
 
  

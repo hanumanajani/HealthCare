@@ -13,7 +13,7 @@ export const GlobalProvider=(props)=>{
   const [check3,setcheck3]=useState(false)
   const [check4,setcheck4]=useState(false)
   const [check5,setcheck5]=useState(false)
-  const [check6,setcheck6]=useState(false)
+  const [check6,setcheck6]=useState(false) 
   const [check7,setcheck7]=useState(false)
   const [check8,setcheck8]=useState(false)
   const [check9,setcheck9]=useState(false)

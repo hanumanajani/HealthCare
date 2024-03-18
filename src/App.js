@@ -14,7 +14,7 @@ import Historyofpaitent from './component/Historyofpaitent';
 import TreatmentDetail from './component/TreatmentDetail';
 // import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 
-
+   
 function App() {
   const useglobal =useGlobal();
 

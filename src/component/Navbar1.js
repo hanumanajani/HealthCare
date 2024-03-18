@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import './Navbar.css';
 import './main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -130,7 +130,7 @@ function Navbar1() {
                                 <NavDropdown.Item href="#action/3.2">
                                 <Button component="label" variant="outlined" onClick={() => { signup() }}>sign  up</Button>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3"><Button component="label" variant="outlined"  onClick={() => { profile() }}>Show Profile</Button></NavDropdown.Item>
+                                 <NavDropdown.Item href="#action/3.3"><Button component="label" variant="outlined"  onClick={() => { profile() }}>Show Profile</Button></NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">
                                 <Button component="label" variant="outlined"  onClick={() => { setprofile() }}>Edit Profile</Button>

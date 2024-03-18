@@ -10,7 +10,7 @@ function Comment1(props) {
 
     const firebase = useFirebase();
     const Seecomment = () => {
-        firebase.readCommentFromId(props.id, setsnodata, snodata);
+        firebase.readCommentFromId(props.id, setsnodata, snodata); 
         firebase.readCommentcounterFromId(props.id, setcnt);
         setcheckPost(!checkPost)
     }
@@ -22,7 +22,7 @@ function Comment1(props) {
                     <strong>{props.writer}::</strong>{props.data}
 
                 </div>
-                <button onClick={() => { Seecomment() }}><img className='seecmnt' src='https://w1.pngwing.com/pngs/459/66/png-transparent-arrow-graphic-design-dropdown-list-button-blue-azure-line-electric-blue-symbol.png'/></button>
+                <button onClick={() => { Seecomment() }}><img className='seecmnt' src='https://w1.pngwing.com/pngs/459/66/png-transparent-arrow-graphic-design-dropdown-list-button-blue-azure-line-electric-blue-symbol.png' alt="See Comments"/></button>
 
                 {(snolist !== null) ?
                     snolist.map(sno =>

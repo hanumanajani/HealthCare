@@ -56,7 +56,7 @@ function Seetreatment(props) {
       <div className='rectangle1'>{data}</div>
   
       <TableContainer component={Paper}>
-
+ 
 
         <Table sx={{ minWidth: 600 }} size="small" aria-label="a dense table">
             <TableHead>

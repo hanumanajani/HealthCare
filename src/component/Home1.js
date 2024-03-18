@@ -6,7 +6,7 @@ export default function Example() {
        <div>
 
           <Aboutus/>
-
+ 
 
 
         

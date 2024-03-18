@@ -6,7 +6,7 @@ const people = [
         'https://tse1.mm.bing.net/th?id=OIP.j_sMGpuF53gtHez5nggWHQAAAA&pid=Api&P=0&h=180',
     },
     {
-        name: 'History of paitent Can be accessed by Dr.',
+        name: 'History of paitent Can be accessed by Dr.', 
         role: 'for perticular date or whole',
         imageUrl:
           'https://tse2.mm.bing.net/th?id=OIP.bxMuvBAqNcQElqgMb5N5hwHaHa&pid=Api&P=0&h=180',
@@ -50,7 +50,7 @@ const people = [
             Elevate your healthcare experience with Doctor Buddy—a virtual platform where online consultations, personalized prescriptions, seamless history tracking, and insightful articles converge, providing a comprehensive and empowering approach to well-being.
             </p>
           </div>
-          <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <ul  className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             {people.map((person) => (
               <li key={person.name}>
                 <div className="flex items-center gap-x-6">

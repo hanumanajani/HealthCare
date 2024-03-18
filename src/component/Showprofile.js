@@ -13,7 +13,7 @@ function Showprofile(props){
     const [usrtype,setusrtype]=useState('paitent/doctor');
     const [imgurl,setimgurl]=useState('https://tse1.mm.bing.net/th?id=OIP.thVfylZ6LBmYuAQS1UG0LgHaEK&pid=Api&P=0&h=180')
     
-    const firebase =useFirebase();
+    const firebase =useFirebase(); 
     const showusrprofile=()=>{
         
         firebase.readuserprofile1(props.name,setemail,setmobileno,setimgurl,props.usrtype);
@@ -29,7 +29,7 @@ function Showprofile(props){
      <div className='body2'>
         <button className='button1' onClick={()=>{showusrprofile()}}>show profile</button>
         <div className='rectangle'><h1>User type:{usrtype}</h1></div>
-        <div className='body1'><img src={imgurl}/></div>
+        <div className='body1'><img src={imgurl} alt=' '/></div>
         <div className='rectangle'><h3>Name:{name}</h3></div>
         <div className='rectangle'><h3>Email:{email}</h3></div>
         <div className='rectangle'><h3>Mobile No :{mobileno}</h3></div> 

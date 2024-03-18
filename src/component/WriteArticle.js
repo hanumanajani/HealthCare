@@ -8,7 +8,7 @@ function WriteArticle() {
     const useglobal = useGlobal()
     const firebase = useFirebase();
     const [topic, settopic] = useState('');
-    const [article, setarticle] = useState('');
+    const [article, setarticle] = useState(''); 
     const [imgurl, setimgurl] = useState('');
     
     function submitarticle(){
