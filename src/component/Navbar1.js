@@ -119,7 +119,7 @@ function Navbar1() {
 
         <Navbar collapseOnSelect expand="lg" data-bs-theme="dark" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">Doctor Buddy</Navbar.Brand>
+                <Navbar.Brand href="#home">Doctor-Buddy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
